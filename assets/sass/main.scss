@@ -86,7 +86,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
+		color: _palette(fg-bold2);
 		font-weight: _font(weight-bold);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
@@ -810,8 +810,9 @@
 		white-space: nowrap;
 
 		&:hover {
-			border-color: _palette(accent1, bg);
-			color: _palette(accent1, bg) !important;
+			border-color: _palette(accent3, bg);
+			color: _palette(accent3, bg) !important;
+			
 		}
 
 		&:active {
