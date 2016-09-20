@@ -25,6 +25,7 @@
 			$header = $('#header'),
 			$footer = $('#footer'),
 			$main = $('#main');
+			$headericons = $('#header .icons');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -60,10 +61,12 @@
 		// Footer.
 			skel.on('+medium', function() {
 				$footer.insertAfter($main);
+				$headericons.show();
 			});
 
 			skel.on('-medium !medium', function() {
 				$footer.appendTo($header);
+				$headericons.hide();
 			});
 
 		// Header.

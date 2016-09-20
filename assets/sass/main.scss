@@ -934,11 +934,22 @@
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			small {
+				font-size: 1.50em;
+			}
 		}
 
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 6.25em;
+		}
+
+		.icons {
+			margin: (_size(element-margin) * 0.5) 0 0 0;
+
+			a {
+				color: _palette(accent2, fg-light);
+			}
 		}
 	}
 
@@ -1202,7 +1213,9 @@
 
 				h1 {
 					font-size: 1.25em;
-
+					small {
+						font-size: 1.10em;
+					}
 					br {
 						display: none;
 					}
@@ -1276,10 +1289,15 @@
 
 				h1 {
 					font-size: 1.75em;
-
+					small {
+						font-size: 1.60em;
+					}
 					br {
 						display: inline;
 					}
+				}
+				.icons {
+					margin: 0 0 (_size(element-margin) * 0.5) 0;
 				}
 			}
 
@@ -1383,6 +1401,9 @@
 
 				h1 {
 					font-size: 1.35em;
+					small {
+						font-size: 1.20em;
+					}
 				}
 			}
 
