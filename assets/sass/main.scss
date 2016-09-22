@@ -880,6 +880,8 @@
 		h3 {
 			font-size: 1em;
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
+			text-align:center;
+			
 		}
 
 		p {
@@ -1030,6 +1032,7 @@
 			.subtitle {
 				text-align:center;
 				color:_palette(fg-light);
+				margin:0 0 1.5em 0;
 			}
 			
 			
